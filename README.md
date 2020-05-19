@@ -5,6 +5,7 @@
 - [Heavens Key](#heavens-key)
 - [目次](#%e7%9b%ae%e6%ac%a1)
 - [Incentive](#incentive)
+- [External Links](#external-links)
 - [Features](#features)
   - [兵器](#%e5%85%b5%e5%99%a8)
   - [シールド](#%e3%82%b7%e3%83%bc%e3%83%ab%e3%83%89)
@@ -18,6 +19,10 @@
 # Incentive
 Stellarisの精神主義系統は、ほぼRP専用の不遇系統となっています。
 そこで、物質主義に対立する存在としての精神主義を確立するのがこのModの狙いです。
+
+# External Links
++ [機能・名称・フレーバーテキストリスト](https://docs.google.com/spreadsheets/d/1pYhBueJaZra8qub0P9YSoSogPLeld88L5LMTlKwNO9o/edit?usp=sharing)
+  + このスプレッドシートから、昨日の名称やフレーバーテキストを提案できます。
 
 # Features
 このModは、以下の機能を実装します。
