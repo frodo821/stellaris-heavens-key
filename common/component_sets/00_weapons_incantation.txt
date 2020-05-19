@@ -1,0 +1,13 @@
+component_set = {
+	key = "INCANTATION_1"
+	
+	icon = GFX_ship_part_plasma_1
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "INCANTATION_2"
+	
+	icon = GFX_ship_part_plasma_1
+	icon_frame = 1	
+}

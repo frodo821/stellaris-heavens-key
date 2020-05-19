@@ -1,0 +1,39 @@
+unexplainable_energy_pulse_category = {
+	desc = unexplainable_energy_pulse_category_desc
+	picture = GFX_evt_asteroid_field
+	level = 4
+
+	spawn_chance = {
+		modifier = {
+			add = 3
+			is_asteroid = yes
+		}
+	}
+
+	on_success = {
+		1 = {
+			max_once = yes
+			anomaly_event = heavenskey.1
+		}
+		0 = {
+			anomaly_event = heavenskey.2
+			modifier = {
+				OR = {
+					has_ethic = ethic_spiritualist
+					has_ethic = ethic_fanatic_spiritualist
+				}
+				add = 1
+			}
+		}
+		0 = {
+			anomaly_event = heavenskey.3
+			modifier = {
+				NOR = {
+					has_ethic = ethic_spiritualist
+					has_ethic = ethic_fanatic_spiritualist
+				}
+				add = 1
+			}
+		}
+	}
+}

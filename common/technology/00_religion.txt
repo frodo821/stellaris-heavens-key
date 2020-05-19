@@ -1,0 +1,32 @@
+tech_about_theology = {
+	area = society
+	tier = 0
+	category = { theology }
+	start_tech = yes
+
+	potential = {
+		is_gestalt = no
+		OR = {
+			has_ethic = ethic_spiritualist
+			has_ethic = ethic_fanatic_spiritualist
+		}
+	}
+}
+
+tech_large_scale_incantation = {
+	area = society
+	category = { theosophy }
+	tier = 1
+	cost = @tier1cost1
+
+	prerequisites = { tech_about_theology }
+}
+
+tech_advanced_destructive_incantation = {
+	area = society
+	category = { theosophy }
+	tier = 1
+	cost = @tier2cost1
+
+	prerequisites = { tech_large_scale_incantation }
+}

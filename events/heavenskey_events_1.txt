@@ -1,0 +1,76 @@
+ship_event = {
+	id = heavenskey.1
+	title = heavenskey_events_1_name
+	desc = heavenskey_events_1_desc
+	hide_window = no
+
+	picture = GFX_evt_psionics
+	show_sound = event_laboratory_sound
+
+	location = from
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = heavenskey_events_1_option_1
+		custom_tooltip = heavenskey_events_1_option_1_desc
+
+		owner = {
+			country_add_ethic = ethic_spiritualist
+			add_tech_progress = {
+				tech = tech_about_theology
+				progress = 1
+			}
+		}
+	}
+
+	option = {
+		name = heavenskey_events_1_option_2
+		custom_tooltip = heavenskey_events_1_option_2_desc
+	}
+}
+
+ship_event = {
+	id = heavenskey.2
+	title = heavenskey_events_2_name
+	desc = heavenskey_events_2_desc
+	hide_window = no
+
+	picture = GFX_evt_psionics
+	show_sound = event_laboratory_sound
+
+	location = from
+
+	is_triggered_only = yes
+
+	immediate = {
+		owner = {
+			if = {
+				limit = {
+					OR = {
+						has_ethic = ethic_spiritualist
+						has_ethic = ethic_fanatic_spiritualist
+					}
+				}
+				add_resource = {
+					society_research = 200
+				}
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = heavenskey.3
+	title = heavenskey_events_3_name
+	desc = heavenskey_events_3_desc
+	hide_window = no
+
+	picture = GFX_evt_psionics
+	show_sound = event_laboratory_sound
+
+	location = from
+
+	is_triggered_only = yes
+}

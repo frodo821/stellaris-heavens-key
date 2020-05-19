@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.txt": "stellaris"
+  },
+  "cSpell.words": [
+    "heavenskey"
+  ],
+  "csv-preview.separator": ";",
+  "csv-preview.numberFormat": "g2,",
+  "csv-preview.formatValues": "never"
+}

@@ -1,0 +1,8 @@
+key;cost;power;min_damage;max_damage;hull_damage;shield_damage;shield_penetration;armor_damage;armor_penetration;min_windup;max_windup;cooldown;range;accuracy;tracking;missile_speed;missile_evasion;missile_shield;missile_armor;missile_health;missile_retarget_range;end
+# Destructive Incantations;;;;;;;;;;;;;;;;;;;;;;
+E_D_INCANTATION;10.00;-5.00;4.00;20.00;1.00;0.50;0.10;1.50;0.00;1.00;25.00;30.00;40.00;0.90;0.50;0.00;0.00;0.00;0.00;0.00;0.00;
+M_E_D_INCANTATION;20.00;-5.00;10.00;50.00;1.00;0.50;0.10;1.50;0.00;1.00;25.00;30.00;60.00;0.90;0.30;0.00;0.00;0.00;0.00;0.00;0.00;
+L_E_D_INCANTATION;40.00;-5.00;24.00;120.00;1.00;0.50;0.10;1.50;0.00;1.00;25.00;30.00;80.00;0.90;0.05;0.00;0.00;0.00;0.00;0.00;0.00;
+A_D_INCANTATION;13.00;-7.00;7.00;32.00;1.00;0.50;0.10;1.50;0.00;1.00;25.00;30.00;40.00;0.90;0.50;0.00;0.00;0.00;0.00;0.00;0.00;
+M_A_D_INCANTATION;26.00;-7.00;16.00;80.00;1.00;0.50;0.10;1.50;0.00;1.00;25.00;30.00;60.00;0.90;0.30;0.00;0.00;0.00;0.00;0.00;0.00;
+L_A_D_INCANTATION;52.00;-7.00;39.00;192.00;1.00;0.50;0.10;1.50;0.00;1.00;25.00;30.00;80.00;0.90;0.05;0.00;0.00;0.00;0.00;0.00;0.00;
