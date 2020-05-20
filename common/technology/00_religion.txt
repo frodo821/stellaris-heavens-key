@@ -1,9 +1,10 @@
 tech_about_theology = {
 	area = society
 	tier = 0
-	category = { theology }
+	category = {
+		theology
+	}
 	start_tech = yes
-
 	potential = {
 		is_gestalt = no
 		OR = {
@@ -11,22 +12,208 @@ tech_about_theology = {
 			has_ethic = ethic_fanatic_spiritualist
 		}
 	}
+	modifier = {
+		pop_ethic_spiritualist_attraction_mult = 0.2
+		country_society_research_produces_mult = 0.1
+	}
+}
+
+tech_modern_theology = {
+	area = society
+	tier = 1
+	category = {
+		theology
+	}
+	cost = @tier1cost3
+	weight = @tier1weight3
+	prerequisites = {
+		tech_about_theology
+	}
+	modifier = {
+		country_unity_produces_mult = 0.1
+		country_influence_produces_mult = 0.15
+	}
+}
+
+tech_spiritual_theory = {
+	area = society
+	tier = 3
+	category = {
+		theology
+	}
+	cost = @tier3cost3
+	weight = @tier3weight3
+	prerequisites = {
+		tech_modern_theology
+	}
+	modifier = {
+		pop_ethic_spiritualist_attraction_mult = 0.1
+		country_base_influence_produces_add = 1
+	}
+}
+
+tech_spiritual_observation = {
+	area = society
+	tier = 4
+	category = {
+		theology
+	}
+	cost = @tier4cost3
+	weight = @tier4weight2
+	prerequisites = {
+		tech_spiritual_theory
+	}
+	modifier = {
+		ship_hyperlane_range_add = 1
+		planet_sensor_range_add = 3
+	}
+}
+
+tech_reality_overwrite = {
+	area = society
+	tier = 4
+	category = {
+		theology
+	}
+	cost = @tier4cost3
+	weight = @tier4weight2
+	prerequisites = {
+		tech_spiritual_observation
+	}
+	modifier = {
+		planet_stability_add = 10
+		building_time_mult = -0.2
+	}
 }
 
 tech_large_scale_incantation = {
 	area = society
-	category = { theosophy }
+	category = {
+		theosophy
+	}
 	tier = 1
 	cost = @tier1cost1
-
-	prerequisites = { tech_about_theology }
+	weight = @tier1weight2
+	prerequisites = {
+		tech_about_theology
+	}
 }
 
-tech_advanced_destructive_incantation = {
+tech_physical_intervention = {
 	area = society
-	category = { theosophy }
+	category = {
+		theosophy
+	}
 	tier = 1
-	cost = @tier2cost1
+	cost = @tier1cost1
+	weight = @tier1weight2
+	prerequisites = {
+		tech_about_theology
+	}
+}
 
-	prerequisites = { tech_large_scale_incantation }
+tech_advanced_incantation = {
+	area = society
+	category = {
+		theosophy
+	}
+	tier = 2
+	cost = @tier2cost1
+	weight = @tier2weight2
+	prerequisites = {
+		tech_large_scale_incantation
+	}
+}
+
+tech_direct_material_intervention = {
+	area = society
+	category = {
+		theosophy
+	}
+	tier = 2
+	cost = @tier2cost1
+	weight = @tier2weight2
+	prerequisites = {
+		tech_physical_intervention
+	}
+}
+
+tech_incarnative_incantation = {
+	area = society
+	category = {
+		theosophy
+	}
+	tier = 3
+	cost = @tier3cost1
+	weight = @tier3weight2
+	prerequisites = {
+		tech_advanced_incantation
+	}
+}
+
+tech_spatial_intervention = {
+	area = society
+	category = {
+		theosophy
+	}
+	tier = 3
+	cost = @tier3cost1
+	weight = @tier3weight2
+	prerequisites = {
+		tech_direct_material_intervention
+	}
+}
+
+tech_next_generation_incantation = {
+	area = society
+	category = {
+		theosophy
+	}
+	tier = 4
+	cost = @tier4cost1
+	weight = @tier4weight2
+	prerequisites = {
+		tech_incarnative_incantation
+	}
+}
+
+tech_spiritual_intervention = {
+	area = society
+	category = {
+		theosophy
+	}
+	tier = 4
+	cost = @tier4cost1
+	weight = @tier4weight2
+	prerequisites = {
+		tech_spatial_intervention
+		tech_spiritual_observation
+	}
+}
+
+tech_ultimate_incantation = {
+	area = society
+	category = {
+		theosophy
+	}
+	tier = 5
+	cost = @tier5cost1
+	weight = @tier5weight2
+	prerequisites = {
+		tech_next_generation_incantation
+	}
+}
+
+tech_reality_tweaking = {
+	area = society
+	category = {
+		theosophy
+	}
+	tier = 4
+	cost = @tier4cost1
+	weight = @tier4weight2
+	prerequisites = {
+		tech_spiritual_intervention
+		tech_reality_overwrite
+	}
 }

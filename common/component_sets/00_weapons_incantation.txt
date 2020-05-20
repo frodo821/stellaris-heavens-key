@@ -1,13 +1,59 @@
 component_set = {
-	key = "INCANTATION_1"
-	
+	key = "I_CAT_INCARNATION_1"
 	icon = GFX_ship_part_plasma_1
-	icon_frame = 1	
+	icon_frame = 1
 }
 
 component_set = {
-	key = "INCANTATION_2"
-	
+	key = "I_CAT_INCARNATION_2"
+	icon = GFX_ship_part_plasma_2
+	icon_frame = 1
+}
+
+component_set = {
+	key = "I_CAT_INCARNATION_3"
+	icon = GFX_ship_part_plasma_3
+	icon_frame = 1
+}
+
+component_set = {
+	key = "I_CAT_INCARNATION_4"
+	icon = GFX_ship_part_energy_lance_1
+	icon_frame = 1
+}
+
+component_set = {
+	key = "I_CAT_INCARNATION_5"
+	icon = GFX_ship_part_energy_lance_2
+	icon_frame = 1
+}
+
+component_set = {
+	key = "I_CAT_IMPACT_1"
 	icon = GFX_ship_part_plasma_1
-	icon_frame = 1	
+	icon_frame = 1
+}
+
+component_set = {
+	key = "I_CAT_IMPACT_2"
+	icon = GFX_ship_part_plasma_2
+	icon_frame = 1
+}
+
+component_set = {
+	key = "I_CAT_IMPACT_3"
+	icon = GFX_ship_part_plasma_3
+	icon_frame = 1
+}
+
+component_set = {
+	key = "I_CAT_IMPACT_4"
+	icon = GFX_ship_part_energy_lance_1
+	icon_frame = 1
+}
+
+component_set = {
+	key = "I_CAT_IMPACT_5"
+	icon = GFX_ship_part_energy_lance_2
+	icon_frame = 1
 }

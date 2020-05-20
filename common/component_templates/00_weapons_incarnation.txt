@@ -1,0 +1,446 @@
+weapon_component_template = {
+	key = "E_D_INCANTATION"
+	size = small
+	type = instant
+	icon = GFX_ship_part_plasma_1
+	icon_frame = 1
+	prerequisites = {
+		tech_large_scale_incantation
+	}
+	component_set = "I_CAT_INCARNATION_1"
+	projectile_gfx = "infrared_laser_s"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "A_D_INCANTATION"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t1_cost
+		}
+		upkeep = {
+			energy = @s_t1_upkeep_energy
+			alloys = @s_t1_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "M_E_D_INCANTATION"
+	size = medium
+	type = instant
+	icon = GFX_ship_part_plasma_1
+	icon_frame = 1
+	prerequisites = {
+		tech_large_scale_incantation
+	}
+	component_set = "I_CAT_INCARNATION_1"
+	projectile_gfx = "infrared_laser_m"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "M_A_D_INCANTATION"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t1_cost
+		}
+		upkeep = {
+			energy = @m_t1_upkeep_energy
+			alloys = @m_t1_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "L_E_D_INCANTATION"
+	size = large
+	type = instant
+	icon = GFX_ship_part_plasma_1
+	icon_frame = 1
+	prerequisites = {
+		tech_large_scale_incantation
+	}
+	component_set = "I_CAT_INCARNATION_1"
+	projectile_gfx = "infrared_laser_l"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "L_A_D_INCANTATION"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t1_cost
+		}
+		upkeep = {
+			energy = @l_t1_upkeep_energy
+			alloys = @l_t1_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "A_D_INCANTATION"
+	size = small
+	type = instant
+	icon = GFX_ship_part_plasma_2
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_incantation
+	}
+	component_set = "I_CAT_INCARNATION_2"
+	projectile_gfx = "infrared_laser_s"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "S_D_INCANTATION"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t2_cost
+		}
+		upkeep = {
+			energy = @s_t2_upkeep_energy
+			alloys = @s_t2_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "M_A_D_INCANTATION"
+	size = medium
+	type = instant
+	icon = GFX_ship_part_plasma_2
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_incantation
+	}
+	component_set = "I_CAT_INCARNATION_2"
+	projectile_gfx = "infrared_laser_m"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "M_S_D_INCANTATION"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t2_cost
+		}
+		upkeep = {
+			energy = @m_t2_upkeep_energy
+			alloys = @m_t2_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "L_A_D_INCANTATION"
+	size = large
+	type = instant
+	icon = GFX_ship_part_plasma_2
+	icon_frame = 1
+	prerequisites = {
+		tech_advanced_incantation
+	}
+	component_set = "I_CAT_INCARNATION_2"
+	projectile_gfx = "infrared_laser_l"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "L_S_D_INCANTATION"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t2_cost
+		}
+		upkeep = {
+			energy = @l_t2_upkeep_energy
+			alloys = @l_t2_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "S_D_INCANTATION"
+	size = small
+	type = instant
+	icon = GFX_ship_part_plasma_3
+	icon_frame = 1
+	prerequisites = {
+		tech_incarnative_incantation
+	}
+	component_set = "I_CAT_INCARNATION_3"
+	projectile_gfx = "infrared_laser_s"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "SMALL_BLUE_LASER"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t3_cost
+		}
+		upkeep = {
+			energy = @s_t3_upkeep_energy
+			alloys = @s_t3_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "M_S_D_INCANTATION"
+	size = medium
+	type = instant
+	icon = GFX_ship_part_plasma_3
+	icon_frame = 1
+	prerequisites = {
+		tech_incarnative_incantation
+	}
+	component_set = "I_CAT_INCARNATION_3"
+	projectile_gfx = "infrared_laser_m"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "SMALL_BLUE_LASER"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t3_cost
+		}
+		upkeep = {
+			energy = @m_t3_upkeep_energy
+			alloys = @m_t3_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "L_S_D_INCANTATION"
+	size = large
+	type = instant
+	icon = GFX_ship_part_plasma_3
+	icon_frame = 1
+	prerequisites = {
+		tech_incarnative_incantation
+	}
+	component_set = "I_CAT_INCARNATION_3"
+	projectile_gfx = "infrared_laser_l"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "SMALL_BLUE_LASER"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "N_D_INCANTATION"
+	size = small
+	type = instant
+	icon = GFX_ship_part_energy_lance_1
+	icon_frame = 1
+	prerequisites = {
+		tech_next_generation_incantation
+	}
+	component_set = "I_CAT_INCARNATION_4"
+	projectile_gfx = "infrared_laser_s"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "U_D_INCANTATION"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t4_cost
+		}
+		upkeep = {
+			energy = @s_t4_upkeep_energy
+			alloys = @s_t4_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "M_N_D_INCANTATION"
+	size = medium
+	type = instant
+	icon = GFX_ship_part_energy_lance_1
+	icon_frame = 1
+	prerequisites = {
+		tech_next_generation_incantation
+	}
+	component_set = "I_CAT_INCARNATION_4"
+	projectile_gfx = "infrared_laser_m"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "M_U_D_INCANTATION"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t4_cost
+		}
+		upkeep = {
+			energy = @m_t4_upkeep_energy
+			alloys = @m_t4_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "L_N_D_INCANTATION"
+	size = large
+	type = instant
+	icon = GFX_ship_part_energy_lance_1
+	icon_frame = 1
+	prerequisites = {
+		tech_next_generation_incantation
+	}
+	component_set = "I_CAT_INCARNATION_4"
+	projectile_gfx = "infrared_laser_l"
+	tags = {
+		weapon_type_energy
+	}
+	upgrades_to = "L_U_D_INCANTATION"
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+		}
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "U_D_INCANTATION"
+	size = small
+	type = instant
+	icon = GFX_ship_part_energy_lance_2
+	icon_frame = 1
+	prerequisites = {
+		tech_ultimate_incantation
+	}
+	component_set = "I_CAT_INCARNATION_5"
+	projectile_gfx = "infrared_laser_s"
+	tags = {
+		weapon_type_energy
+	}
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t5_cost
+		}
+		upkeep = {
+			energy = @s_t5_upkeep_energy
+			alloys = @s_t5_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "M_U_D_INCANTATION"
+	size = medium
+	type = instant
+	icon = GFX_ship_part_energy_lance_2
+	icon_frame = 1
+	prerequisites = {
+		tech_ultimate_incantation
+	}
+	component_set = "I_CAT_INCARNATION_5"
+	projectile_gfx = "infrared_laser_m"
+	tags = {
+		weapon_type_energy
+	}
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t5_cost
+		}
+		upkeep = {
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+		}
+	}
+}
+
+weapon_component_template = {
+	key = "L_U_D_INCANTATION"
+	size = large
+	type = instant
+	icon = GFX_ship_part_energy_lance_2
+	icon_frame = 1
+	prerequisites = {
+		tech_ultimate_incantation
+	}
+	component_set = "I_CAT_INCARNATION_5"
+	projectile_gfx = "infrared_laser_l"
+	tags = {
+		weapon_type_energy
+	}
+	ai_tags = {
+		weapon_role_anti_armor
+	}
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t5_cost
+		}
+		upkeep = {
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
+		}
+	}
+}
